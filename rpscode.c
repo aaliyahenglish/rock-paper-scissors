@@ -38,11 +38,11 @@ int main()
     if (n < 33) // using probability 100 is divded among rock, paper,scissors
 
         computer = 's'; // s is denoting stone
-    else if (m > 33 && n < 66)
-        computer = 'p' // p is denoting paper
+    else if (n > 33 && n < 66)
+        computer = 'p'; // p is denoting paper
     
     else
-        computer = 'z' // z is denoting scissors
+        computer = 'z'; // z is denoting scissors
     
     printf("\n\n\n\n\t\t\t\tEnter s for STONE, p for PAPER and z for SCISSORS\n\t\t\t\t\t\t\t");
     
@@ -61,7 +61,7 @@ int main()
     else {
         printf("\n\n\t\t\t\tOh! You have lost!\n");
     }
-        printf("\t\t\t\tYou choose: %c and Computer chose: %c\n", you, computer");
+        printf("\t\t\t\tYou choose : %c and Computer choose : %c\n", you, computer);
     
     return 0;
 

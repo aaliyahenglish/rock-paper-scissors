@@ -25,6 +25,8 @@ int game(char you, char computer)
     
     else if (you == 'z' && computer =='p') //if users choice is scissors and computers choice is paper
         return 1;
+
+    return -1; // fallback for inputs not covered above
 }
 
 int main()
